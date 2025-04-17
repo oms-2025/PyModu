@@ -1,0 +1,2 @@
+def hitbox(sprite):
+    pygame.draw.polygon(window, (0, 255, 0), [(sprite.x, sprite.y), (sprite.x+sprite.width, sprite.y), (sprite.x+sprite.width, sprite.y+sprite.height), (sprite.x, sprite.y+sprite.height)], 2)
